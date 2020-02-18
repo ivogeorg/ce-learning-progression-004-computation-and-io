@@ -15,20 +15,31 @@ This assignment introduces the GPIO pins of the micro:bit.
 ### Requirements
 
 #### 1. Simple external LED circuit
-1. Build a simple DC circuit with a 5V voltage source, a 330 or 470 Ohm resistor, and an LED.
+1. On a workstation breadboard, build a simple DC circuit with a 5V voltage source, a 330 or 470 Ohm resistor, and an LED.
 2. Measure the voltage drop V<sub>LED</sub> across the LED with a multimeter.
 3. Measure the current I in the circuit with a multimeter.
 4. Calculate by Ohm's Law (V = IR or R = V/I) the effective resistance R<sub>LED</sub> of the LED.
-5. Write your measured and calculated values in the [measurements](#measurements) section at the bottom of this [README](README).
-6. Record a brief video of your circuit setup and its operation.
+5. Write your measured and calculated values in the [measurements](#measurements) section at the bottom of this [README](README.md).
+6. Record a brief video of your circuit setup and its operation and link it in the [demo video](#demo-video) section at the bottom of this [README](README.md).
 
 #### 2. Micro:bit breakout tutorial
-1. Follow the instructions in the SparkFun [micro:bit breakout board hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide). Build the circuit, using 3 LEDs of different colors. Remember the proper orientation of the LEDs (long leg toward higher voltage). Commit the JavaScript file to your assignment repository, calling it `original-guide.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
-2. Reconfigure the circuit and rewrite the program to avoid disabling the LED matrix. Choose the correct 3 pins from the [micro:bit GPIO function table](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide#hardware-overview). Add code to demonstrate that the LED matrix is enabled. Commit the JavaScript file to your assignment repository, calling it `enable-matrix.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
+1. Connect your micro:bit to one of the breakout + breadboard kits distributed in class.
+2. Follow the instructions in the SparkFun [micro:bit breakout board hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide). 
+   1. Build the circuit, using the 3 resistors and 3 LEDs of different colors, distributed in yellow envelopes in class. Remember the proper orientation of the LEDs (long leg toward higher voltage). The micro:bit is going to provide the 3.3V and GND for this circuit. _Note: Because of lower voltage, the lower-resistance, say 330 Ohms, resistors should be used. The LEDs will shine brigher this way._
+   2. Copy and paste the JavaScript version of the embedded MakeCode program and program your micro:bit. Test its operation.
+   3. Record a brief video of your circuit setup and its operation and link it in the [demo video](#demo-video) section at the bottom of this [README](README.md).
+   4. Commit the JavaScript file to your assignment repository, calling it `tutorial.js`.
 
 #### 3. Screensaver extension
-1. Now that you have a 5x5 LED matrix and 3 external LEDs, extend your favorite screensaver program to include the external LEDs into the changing pattern. Do something interesting. Commit the JavaScript file to your assignment repository, calling it `twenty-eight.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
-
+1. Reconfigure the circuit and rewrite the program to avoid disabling the LED matrix. 
+   1. Choose the correct 3 pins from the [micro:bit GPIO function table](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide#hardware-overview) to drive the 3 external LEDs. _Hint: The GPIO pins are multi-function. Choose pins that do not control the LED matrix as one of their functions._
+   2. Add code to demonstrate that the LED matrix is enabled. For example, show icons or scroll text. It should appear clearly w/o interference.
+   3. Record a brief video of your circuit setup and its operation and link it in the [demo video](#demo-video) section at the bottom of this [README](README.md).   
+   4. Commit the JavaScript file to your assignment repository, calling it `enable-matrix.js`.
+2. Now that you have a 5x5 LED matrix and 3 external LEDs, extend your favorite screensaver program to include the external LEDs into the changing pattern. 
+   1. Do something interesting. Try to incorporate the 3 external LEDs in the changing screensaver pattern.
+   2. Record a brief video of your circuit setup and its operation and link it in the [demo video](#demo-video) section at the bottom of this [README](README.md).      
+   3. Commit the JavaScript file to your assignment repository, calling it `twenty-eight.js`.
 
 ## Resources
 
