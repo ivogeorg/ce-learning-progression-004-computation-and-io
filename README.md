@@ -1,72 +1,34 @@
 # CPE 1040 - Spring 2020
 
-## Assignment 3.5: Microbit Wired & Wireless Roundtrip Communication
+## Assignment 4: Microbit LEDs and GPIO Pins
 
 Author: Ivo Georgiev, PhD  
-Last updated: 2020-02-14  
-Code: 333fe0348d8c8a00b82d3e4d9eab4a63a7a5dace  
+Last updated: 2020-02-18  
+Code: bfa7bad28c3293419d0214510037220abb9b1146  
 
-This is an _optional_ assignment for the Spring 2020 installment of the CPE 1040 - Intro to Computer Engineering course at MSU Denver.
+This is assignment 4 for the Spring 2020 installment of the CPE 1040 - Intro to Computer Engineering course at MSU Denver.
 
 ### Overview
 
-This assignment explores wireless and wired I/O communication features of the micro:bit.
+This assignment introduces the GPIO pins of the micro:bit.
 
 ### Requirements
 
-#### 1. Radio communcation
+#### 1. Simple external LED circuit
+1. Build a simple DC circuit with a 5V voltage source, a 330 or 470 Ohm resistor, and an LED.
+2. Measure the voltage drop V<sub>LED</sub> across the LED with a multimeter.
+3. Measure the current I in the circuit with a multimeter.
+4. Calculate by Ohm's Law (V = IR or R = V/I) the effective resistance R<sub>LED</sub> of the LED.
+5. Write your measured and calculated values in the [measurements](#measurements) section at the bottom of this [README](README).
+6. Record a brief video of your circuit setup and its operation.
 
-1. Use the micro:bit [radio functions](https://makecode.microbit.org/reference/radio) to communicate different data types between 2 micro:bits:
-   1. An integer.
-   2. A floating-point number.
-   3. A boolean.
-   4. A single character.
-   5. A string.
-   6. **(Challenge)** An object of a class. _Hint: Objects are implemented as [key-value maps](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/static-typescript-draft2.pdf) in TypeScript._
+#### 2. Micro:bit breakout tutorial
+1. Follow the instructions in the SparkFun [micro:bit breakout board hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide). Build the circuit, using 3 LEDs of different colors. Remember the proper orientation of the LEDs (long leg toward higher voltage). Commit the JavaScript file to your assignment repository, calling it `original-guide.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
+2. Reconfigure the circuit and rewrite the program to avoid disabling the LED matrix. Choose the correct 3 pins from the [micro:bit GPIO function table](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide#hardware-overview). Add code to demonstrate that the LED matrix is enabled. Commit the JavaScript file to your assignment repository, calling it `enable-matrix.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
 
-2. **(Challenge)** How would you transfer a function across the radio transmission channel that the micro:bit affords?
+#### 3. Screensaver extension
+1. Now that you have a 5x5 LED matrix and 3 external LEDs, extend your favorite screensaver program to include the external LEDs into the changing pattern. Do something interesting. Commit the JavaScript file to your assignment repository, calling it `twenty-eight.js`. Build the circuit and take a short video of its operation. Do a short writeup in [README.md](README.md) and include a link to the video.
 
-3. Briefly explain your code in the [experiments](#experiments) section of this [README](README).
-
-4. Record a video that shows the communication, upload to Imgur, and link in the [demo video](#demo-video) section of this [README](README).
-
-#### 2. GPIO pin communication
-
-1. **(Challenge)** Use the micro:bit [GPIO pin functions](https://makecode.microbit.org/reference/pins) to communicate different data types between 2 micro:bits (_Hint: You might want to consider creating your own protocol and an API like the `sendValue()` and `onReceivedValue()`.):
-   1. An integer.
-   2. A floating-point number.
-   3. A boolean.
-   4. A single character.
-   5. A string.
-   6. An object of a class.
-
-2. Briefly explain your code in the [experiments](#experiments) section of this [README](README).
-
-3. Record a video that shows the communication, upload to Imgur, and link in the [demo video](#demo-video) section of this [README](README).
-
-#### 3. Round-trip communication
-
-1. Measure the time it takes for the round-trip communication, using only _radio_, of a:
-   1. Number.
-   2. String. _How do you signal the end of the string? How does the length of the string affect the time?_
-   
-2. Repeat the experiment from (1), now using only _pins_.
-
-3. Repeat the experiment from (1), now using _radio_ in one direction, and _pins_ in the reverse direction.
-
-4. Briefly explain your code in the [experiments](#experiments) section of this [README](README).
-
-5. Record a video that shows the communication, upload to Imgur, and link in the [demo video](#demo-video) section of this [README](README).
-
-#### 4. (Challenge) Clock synchronization
-
-1. Create a MM:SS _binary-coded decimal_ clock to display on the LED matrix of the micro:bit. Can you make it run at the correct speed?
-
-2. Once you are done with (1), create a clock-sync procedure between the 2 micro:bits. Note that the second micro:bit should only receive time and time corrections from the first one. Can you get the two micro:bits to run in sync?
-
-3. Explain your code in the [experiments](#experiments) section of this [README](README).
-
-4. Record a video that shows the communication, upload to Imgur, and link in the [demo video](#demo-video) section of this [README](README).
 
 ## Resources
 
@@ -118,10 +80,10 @@ This assignment explores wireless and wired I/O communication features of the mi
 
 ---
 
-## Experiements
+## Measurements
 
-_TODO: Describe your communications code, experiements, and comms time-measurements here._
+_TODO: Record and describe your circuit measurements and calculations here._
 
-## Demo video
+## Demo videos
 
-_TODO: Add your video descriptions and URLs here. The videos should clearly show the transmitted values at the origin and destination._
+_TODO: Add your video descriptions and URLs here. The videos should clearly show the completion of the corresponding task._
