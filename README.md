@@ -10,7 +10,7 @@ This is assignment 4 for the Spring 2020 installment of the CPE 1040 - Intro to 
 
 ### Overview
 
-This assignment introduces the GPIO pins of the micro:bit.
+This assignment introduces the GPIO pins of the micro:bit. _Refer to the [criteria](criteria.md) for submitted assignments!_
 
 ### Requirements
 
