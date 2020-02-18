@@ -23,7 +23,7 @@ This assignment introduces the GPIO pins of the micro:bit.
 6. Record a brief video of your circuit setup and its operation and link it in the [demo video](#demo-video) section at the bottom of this [README](README.md).
 
 #### 2. Micro:bit breakout tutorial
-1. Connect your micro:bit to one of the breakout + breadboard kits distributed in class.
+1. Connect your micro:bit to one of the [breakout + breadboard](https://imgur.com/gallery/qqRxBby) kits distributed in class.
 2. Follow the instructions in the SparkFun [micro:bit breakout board hookup guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide). 
    1. Build the circuit, using the 3 resistors and 3 LEDs of different colors, distributed in yellow envelopes in class. Remember the proper orientation of the LEDs (long leg toward higher voltage). The micro:bit is going to provide the 3.3V and GND for this circuit. _Note: Because of lower voltage, the lower-resistance, say 330 Ohms, resistors should be used. The LEDs will shine brigher this way._
    2. Copy and paste the JavaScript version of the embedded MakeCode program and program your micro:bit. Test its operation.
