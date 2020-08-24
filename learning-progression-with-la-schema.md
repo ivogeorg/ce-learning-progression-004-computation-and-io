@@ -2,6 +2,11 @@
 
 ## Learning Progression 004: GPIO pins and LEDs
 
+Topics:
+- Kirchhoff's laws  
+- parallel and in-series resistors  
+- LED current and voltage drop  
+
 ### Step 1:   
 
 #### 1. Study
