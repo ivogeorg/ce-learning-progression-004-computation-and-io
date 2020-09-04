@@ -41,15 +41,23 @@
    - charge, voltage, current
    - Kirchhoff's laws  
    - parallel and in-series resistors  
-6. Multimeter  
+6. Circuits & circuit elements  
+   - resistor  
+   - capacitor  
+   - inductor  
+   - diode  
+   - wires  
+   - voltage/current source (battery)  
+   - mechanical switches  
+7. Multimeter  
    - voltage  
    - current  
    - resistance  
    - diode/continuity  
-7. Basic LED circuit  
+8. Basic LED circuit  
    - LED current and voltage drop  
-8. Microbit breakout [guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide?_ga=2.103632514.348660827.1599098328-1062375953.1592240158)  
-9. Screensaver extension   
+9. Microbit breakout [guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide?_ga=2.103632514.348660827.1599098328-1062375953.1592240158)  
+10. Screensaver extension   
    - two extra rows for a 7x5 matrix   
 
 ### Step 1:   
