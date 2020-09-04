@@ -57,7 +57,8 @@
 8. Basic LED circuit  
    - LED current and voltage drop  
 9. Microbit breakout [guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide?_ga=2.103632514.348660827.1599098328-1062375953.1592240158)  
-10. Screensaver extension   
+10. Microbit GPIO pins and digital/analog functions  
+11. Screensaver extension   
    - two extra rows for a 7x5 matrix   
 
 ### Step 1:   
