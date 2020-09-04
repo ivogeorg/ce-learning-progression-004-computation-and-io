@@ -13,8 +13,30 @@
    - arithmetic    
    - shifting   
    - multiplication by addition & shift  
+   - challenge: multiplication of two 16-bit numbers on an 8-bit processor  
 3. Boolean algebra   
-4. Minimal assembly?  
+4. Minimal assembly?
+   - [MISC](https://www.google.com/search?q=misc+instruction+set)    
+   - ATMEL ISA (too complex)  
+   - [F-4](http://www.dakeng.com/misc.html)  
+     
+     The instruction set for the F-4 (fast 4), a proof-of-concept minimal instruction set CPU, is listed below.  Each instruction has several addressing modes. Note that the mnemonics are borrowed from the venerable Motorola SY6502, used in the old 8-bit Nintendo, among other machines.  There is only one "A" register or accumulator, and a program counter.
+
+     **F-4 MISC 16 bit instruction set**
+     instruction | opcode | operand | operation | clocks
+     --- | --- | --- | --- | ---
+     ADDi imm | 00 01 | 16 bit value | imm+(A) --> A | 3
+     ADDm addr | 00 02 | 16 bit address | (addr)+(A) --> A | 4
+     ADDpc | 00 04 | null operand | PC+(A) --> A | 3
+     BVS addr | 00 08 | 16 bit address | (addr) --> PC if <v>=1 | 3
+     LDAi imm | 00 10 | 16 bit value | imm --> A | 3
+     LDAm addr | 00 20 | 16 bit address | (addr) --> A | 3
+     LDApc | 00 40 | null operand | PC --> A | 3
+     STAm addr | 00 80 | 16 bit address | A --> (addr) | 3
+     STApc PC | 01 00 | null operand | A --> PC | 3
+  
+     The four instructions can be summarized as Load, Store, Add, and Branch if Overflow Set.  Each memory operation is assumed to take one clock, and ALU operations take one clock also.  ALU (Arithmetic and Logic Unit) is something of a misnomer here, since this chip can only add.  For example, "ADD addr" takes four clocks, two to fetch the instruction and operand, one to read the memory, and one more to do the addition.
+
 5. Electricity & magnetism
    - charge, voltage, current
    - Kirchhoff's laws  
