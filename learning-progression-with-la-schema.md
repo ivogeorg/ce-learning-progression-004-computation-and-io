@@ -9,12 +9,15 @@
    - finite bit-width   
    - signed integers (derive via 1s-, then 2s-complement)  
    - IEEE 754 floating point  
-2. Computation
+2. Data & memory.  
+   - memory layout  
+   - addressing  
+   - addressing modes  
+3. Computation
    - arithmetic    
    - shifting   
    - multiplication by addition & shift  
    - challenge: multiplication of two 16-bit numbers on an 8-bit processor  
-3. Boolean algebra   
 4. Minimal assembly?
    - [MISC](https://www.google.com/search?q=misc+instruction+set)    
    - ATMEL ISA (too complex)  
