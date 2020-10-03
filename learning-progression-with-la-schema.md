@@ -2,6 +2,24 @@
 
 ## Learning Progression 004: GPIO pins and LEDs
 
+```
+  _______ ____  _____   ____  
+ |__   __/ __ \|  __ \ / __ \ 
+    | | | |  | | |  | | |  | |
+    | | | |  | | |  | | |  | |
+    | | | |__| | |__| | |__| |
+    |_|  \____/|_____/ \____/ 
+```                              
+## 1. Rename?
+1. Electricity  
+2. Bottom of the stack  
+3. Fundamentals of computation  
+4. Computer fundamentals  
+
+## 2. Lab kit
+1. Parts for progression  
+
+
 ### Topics
 
 1. Binary  
@@ -9,16 +27,19 @@
    - finite bit-width   
    - signed integers (derive via 1s-, then 2s-complement)  
    - IEEE 754 floating point  
+
 2. Data & memory.  
    - memory layout  
    - addressing  
    - addressing modes  
+
 3. Computation
    - arithmetic    
    - shifting   
    - multiplication by addition & shift  
    - challenge: multiplication of two 16-bit numbers on an 8-bit processor  
-4. Minimal assembly?
+
+4. Minimal assembler (part 1)  
    - [MISC](https://www.google.com/search?q=misc+instruction+set)    
    - ATMEL ISA (too complex)  
    - [F-4](http://www.dakeng.com/misc.html)  
@@ -40,11 +61,15 @@
   
      The four instructions can be summarized as Load, Store, Add, and Branch if Overflow Set.  Each memory operation is assumed to take one clock, and ALU operations take one clock also.  ALU (Arithmetic and Logic Unit) is something of a misnomer here, since this chip can only add.  For example, "ADD addr" takes four clocks, two to fetch the instruction and operand, one to read the memory, and one more to do the addition.
 
-5. Electricity & magnetism
+5. Minimal assembler (part 2)  
+   - TBD
+   
+6. Electricity & magnetism
    - charge, voltage, current
    - Kirchhoff's laws  
    - parallel and in-series resistors  
-6. Circuits & circuit elements  
+
+7. Circuits & circuit elements  
    - resistor  
    - capacitor  
    - inductor  
@@ -52,17 +77,23 @@
    - wires  
    - voltage/current source (battery)  
    - mechanical switches  
-7. Multimeter  
+
+8. Multimeter  
    - voltage  
    - current  
    - resistance  
    - diode/continuity  
-8. Basic LED circuit  
+
+9. Basic LED circuit  
    - LED current and voltage drop  
-9. Microbit breakout [guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide?_ga=2.103632514.348660827.1599098328-1062375953.1592240158)  
-10. Microbit GPIO pins and digital/analog functions  
-11. Screensaver extension   
-   - two extra rows for a 7x5 matrix   
+
+10. Microbit breakout [guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide?_ga=2.103632514.348660827.1599098328-1062375953.1592240158)  
+11. Microbit GPIO pins and digital/analog functions  
+
+12. Screensaver extension   
+    - two extra rows for a 7x5 matrix   
+    - extension of all sub-programs  
+
 
 ### Step 1:   
 
