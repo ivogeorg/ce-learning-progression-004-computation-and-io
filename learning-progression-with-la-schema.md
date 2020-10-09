@@ -19,6 +19,23 @@
 ## 2. Lab kit
 1. Parts for progression  
 
+## 3. Parts
+1. Fundamentals 1
+   - Binary
+   - Data & memory
+   - Computation
+   - Minimal assembler (Part 1)
+2. Fundamentals 2
+   - Minimal assembler (Part 2)
+   - Electricity & magnetism
+   - Circuits & circuit elements
+   - Circuit measurements with a multimeter
+3. micro:bit hardware
+   - Basic LED load circuit
+   - micro:bit breakout connector
+   - micro:bit GPIO pins & digital/analog functions
+   - Extending the 5x5 LED matrix with 2 external-LED rows for screensavers.js  
+
 
 ### Topics
 
@@ -89,6 +106,11 @@
 
 10. Microbit breakout [guide](https://learn.sparkfun.com/tutorials/microbit-breakout-board-hookup-guide?_ga=2.103632514.348660827.1599098328-1062375953.1592240158)  
 11. Microbit GPIO pins and digital/analog functions  
+    - write out to drive external LED circuit
+    - read in (simple resistor and LED circuits)
+    - digital vs analog (binary vs continuous-level signal)
+    - calibration of analog in
+    - write out and read in together to close the external-circuit loop
 
 12. Screensaver extension   
     - two extra rows for a 7x5 matrix   
