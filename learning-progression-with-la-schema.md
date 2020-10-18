@@ -34,7 +34,7 @@
    - Basic LED load circuit
    - micro:bit breakout connector
    - micro:bit GPIO pins & digital/analog functions
-   - Extending the 5x5 LED matrix with 2 external-LED rows for screensavers.js  
+   - Run screensavers.js in a 5x7 matrix by adding 2 external LED rows to the 5x5 LED matrix
 
 
 ### Topics
