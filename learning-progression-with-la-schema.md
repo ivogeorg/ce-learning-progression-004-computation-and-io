@@ -56,7 +56,7 @@
    - multiplication by addition & shift  
    - challenge: multiplication of two 16-bit numbers on an 8-bit processor  
 
-4. ~Minimal assembler (part 1)~  
+4. ~Minimal assembly (part 1)~  
    - [MISC](https://www.google.com/search?q=misc+instruction+set)    
    - ATMEL ISA (too complex)  
    - [F-4](http://www.dakeng.com/misc.html)  
@@ -78,7 +78,7 @@
   
      The four instructions can be summarized as Load, Store, Add, and Branch if Overflow Set.  Each memory operation is assumed to take one clock, and ALU operations take one clock also.  ALU (Arithmetic and Logic Unit) is something of a misnomer here, since this chip can only add.  For example, "ADD addr" takes four clocks, two to fetch the instruction and operand, one to read the memory, and one more to do the addition.
 
-5. ~Minimal assembler (part 2)~  
+5. ~Minimal assembly (part 2)~  
    - TBD
    
 6. Electricity & magnetism
