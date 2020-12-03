@@ -1031,10 +1031,10 @@ The most basic _operations_ the processor executes. Note that operations are a v
 Small number of very fast memory locations, deep inside the processor, used in the execution of the processor's instructions. They hold instructions, operands, results, and control state.
 
 
-##### Processor addressing modes  
+##### Processor and memory
 [[toc](#table-of-contents)]
 
-List and illustrate with sketches.  
+Processor addressing modes: list and illustrate with sketches.  
 
 ##### Load and store
 [[toc](#table-of-contents)]
@@ -1080,6 +1080,8 @@ STApc | 01 00 | null operand | A --> PC | 3
 
 ###### In plain words  
 [[toc](#table-of-contents)]
+
+**TODO:** This all happens _in hardware_. What does this mean? Maybe show figures from computer organization.  
 
 Instruction | Verbal elaboration | Sketch
 --- | --- | ---
