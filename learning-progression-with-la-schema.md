@@ -1085,7 +1085,7 @@ STApc | 01 00 | null operand | A --> PC | 3
 
 Instruction | Verbal elaboration | Sketch
 --- | --- | ---
-ADDi imm | Add an immediate value _imm_ and the value at address in register A, and write the result into register A  | [ADDi](images/misc-0001-addi.png)
+ADDi imm | Add together an immediate (literal) value _imm_ and the value at the memory address stored in register A, and write the result back into register A  | [ADDi](images/misc-0001-addi.png)
 ADDm addr | Add the value at an address _addr_ and the value at address in register A, and write the result into register A  | [ADDm](images/misc-0002-addm.png)
 ADDpc | Add the value of the program counter PC and the value at address in register A, and write the result into register A  | [ADDpc](images/misc-0004-addpc.png)
 BVS addr | If the overflow bit \<v> is set (is equal to 1), write the value at an address _addr_ into the program counter PC  | [BVS](images/misc-0008-bvs.png)
