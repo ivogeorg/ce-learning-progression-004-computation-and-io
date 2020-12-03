@@ -1,6 +1,6 @@
 # CPE 1040 - Fall 2020
 
-This is learning progression 004 for the Fall 2020 installment of the course CPE 1040: Introduction to Computer Engineering at MSU Denver.
+This is Learning Progression 004 of the course CPE 1040: Introduction to Computer Engineering at MSU Denver.
 
 <img src="images/lp004-img.jpg" width="800" />
 
@@ -47,7 +47,7 @@ Table of Contents
         * [Central processing unit](#central-processing-unit)
         * [Instruction set architecture](#instruction-set-architecture)
         * [Registers](#registers)
-        * [Processor addressing modes](#processor-addressing-modes)
+        * [Processor and memory](#processor-and-memory)
         * [Load and store](#load-and-store)
         * [Branching revisited](#branching-revisited)
         * [Status bits](#status-bits)
@@ -1031,10 +1031,10 @@ The most basic _operations_ the processor executes. Note that operations are a v
 Small number of very fast memory locations, deep inside the processor, used in the execution of the processor's instructions. They hold instructions, operands, results, and control state.
 
 
-##### Processor addressing modes  
+##### Processor and memory
 [[toc](#table-of-contents)]
 
-List and illustrate with sketches.  
+Processor addressing modes: list and illustrate with sketches.  
 
 ##### Load and store
 [[toc](#table-of-contents)]
@@ -1081,9 +1081,11 @@ STApc | 01 00 | null operand | A --> PC | 3
 ###### In plain words  
 [[toc](#table-of-contents)]
 
+**TODO:** This all happens _in hardware_. What does this mean? Maybe show figures from computer organization.  
+
 Instruction | Verbal elaboration | Sketch
 --- | --- | ---
-ADDi imm | Add an immediate value _imm_ and the value at address in register A, and write the result into register A  | [ADDi](images/misc-0001-addi.png)
+ADDi imm | Add together an immediate (literal) value _imm_ and the value at the memory address stored in register A, and write the result back into register A  | [ADDi](images/misc-0001-addi.png)
 ADDm addr | Add the value at an address _addr_ and the value at address in register A, and write the result into register A  | [ADDm](images/misc-0002-addm.png)
 ADDpc | Add the value of the program counter PC and the value at address in register A, and write the result into register A  | [ADDpc](images/misc-0004-addpc.png)
 BVS addr | If the overflow bit \<v> is set (is equal to 1), write the value at an address _addr_ into the program counter PC  | [BVS](images/misc-0008-bvs.png)
