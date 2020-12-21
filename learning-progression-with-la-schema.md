@@ -42,7 +42,7 @@ Table of Contents
         * [Floating point arithmetic](#floating-point-arithmetic)
       * [2\. Apply](#2-apply-2)
       * [3\. Present](#3-present-2)
-    * [Step 4: Minimal assembly (part 1)](#step-4-minimal-assembly-part-1)
+    * [Step 4: Minimal assembly](#step-4-minimal-assembly)
       * [1\. Study](#1-study-3)
         * [Central processing unit](#central-processing-unit)
         * [Instruction set architecture](#instruction-set-architecture)
@@ -59,7 +59,7 @@ Table of Contents
         * [micro:bit hex files](#microbit-hex-files)
       * [2\. Apply](#2-apply-3)
       * [3\. Present](#3-present-3)
-    * [Step 5: Minimal assembly (part 2)](#step-5-minimal-assembly-part-2)
+    * [Step 5: ARM assembly](#step-5-arm-assembly)
       * [1\. Study](#1-study-4)
       * [2\. Apply](#2-apply-4)
       * [3\. Present](#3-present-4)
@@ -1009,7 +1009,7 @@ In the [Lab Notebook](README.md):
 12. Show your work for 3.2.8 in well-formatted Markdown, including whatever images, tables, or other graphical elements you find necessary.  
 
 
-### Step 4: Minimal assembly (part 1)  
+### Step 4: Minimal assembly  
 [[toc](#table-of-contents)]
 
 #### 1. Study
@@ -1018,18 +1018,19 @@ In the [Lab Notebook](README.md):
 ##### Central processing unit
 [[toc](#table-of-contents)]
 
-The actual processor component which performs the operations of the instruction set.  
+The `[<cept>]`_central processing unit (CPU)_ is the actual processor component which performs the operations of a set of `[<cept>]`_instructions_. Instructions are themselves `[<cept>]`_binary strings_ which carry encoded information about the operation to be performed and any data or addresses required for the operation. A program, originally written in a human-readable high-level programming language is compiled into a sequence of instructions, and these instructions are executed directly in `[<cept>]`_hardware_, one after another.    
 
 ##### Instruction set architecture
 [[toc](#table-of-contents)]
 
-The most basic _operations_ the processor executes. Note that operations are a very high abstraction level relative to electric signals and bit-states, which are part of the physical hardware of the computing device, and thus, the hardware stack. At the same time, operations are the _lowest abstraction level_ in the software stack. This is where the hardware and software stack intersect.
+The most basic _operations_ the processor executes. Note that operations are a very high abstraction level relative to electric signals and bit-states, which are part of the physical hardware of the computing device, and thus, the hardware stack. At the same time, operations are the _lowest abstraction level_ in the software stack. This is where the hardware and software stack co-exist.
+
+**TODO:** Types of instructions as an example?
 
 ##### Registers
 [[toc](#table-of-contents)]
 
 Small number of very fast memory locations, deep inside the processor, used in the execution of the processor's instructions. They hold instructions, operands, results, and control state.
-
 
 ##### Processor and memory
 [[toc](#table-of-contents)]
@@ -1044,7 +1045,7 @@ Link to memory.
 ##### Branching revisited
 [[toc](#table-of-contents)]
 
-Moving through the address space.  
+Moving around in the `[<cept>]`_address space_.  
 
 ##### Status bits
 [[toc](#table-of-contents)]
@@ -1140,7 +1141,7 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 [[toc](#table-of-contents)]
 
 
-### Step 5: Minimal assembly (part 2)  
+### Step 5: ARM assembly
 [[toc](#table-of-contents)]  
 
 **TODO**
@@ -1148,8 +1149,19 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+##### Arm Cortex-M4 ISA
+
+##### micro:bit hex files
+[[toc](#table-of-contents)]
+
+**TODO: Research & take apart a file and show contents (runtimes, program, etc.) _Where?_**  
+
+
+
 #### 2. Apply
 [[toc](#table-of-contents)]  
+
+[VisUAL](https://salmanarif.bitbucket.io/visual/)  
 
 #### 3. Present
 [[toc](#table-of-contents)]  
