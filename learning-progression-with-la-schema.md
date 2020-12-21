@@ -1149,6 +1149,8 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 #### 1. Study
 [[toc](#table-of-contents)]  
 
+##### Arm Cortex-M0 ISA
+
 ##### Arm Cortex-M4 ISA
 
 ##### micro:bit hex files
@@ -1156,7 +1158,7 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 
 **TODO: Research & take apart a file and show contents (runtimes, program, etc.) _Where?_**  
 
-
+##### Hex file comparison
 
 #### 2. Apply
 [[toc](#table-of-contents)]  
