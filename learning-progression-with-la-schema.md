@@ -1132,6 +1132,13 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 - compilation!!! (write a compiler???)  
 - implement on TRION?  
 
+**TODO:** Posssible progression:
+1. Hierarchical patterns: build from the bottom up. Show how more meaningful data organization and computation can be built up from the basic MISC.  
+2. Hierarchical patterns: drill down from the top. Show how to implement a high-level computation on a non-trivial data type with the use of the MISC.  
+3. Understand computation: decompose familar operations into modules/subprograms that can be realized entirely in the MISC.  
+4. Turing completeness: critieria & equivalences.  
+5. _Hands-on thought experiment_: build RISC (say, ARM) from MISC.  
+
 1. `[<lernact-prac>]`Decoding instruction binary patterns. Reading program lines in binary.  
 2. `[<lernact-prac>]`Counting clock cycles for a program.    
 3. `[<lernact-prac>]`**[Optional challenge, max 5 extra step points]** Trace a program in F-4 MISC assembly.  
