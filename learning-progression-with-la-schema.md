@@ -1177,7 +1177,12 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 1.`[<lernact-disc>]`The NZCV flags.   
 2.`[<lernact-prac>]`Implement a simple (monolithic) program from a previous LP step.  
 3.`[<lernact-prac>]`Implement the same program, now with a subroutine.  
-4.`[<lernact-prac>]`**[Optional challenge, max 10 extra step points]** Implement recursive bubble sort.    
+4.`[<lernact-prac>]`**[Optional challenge, max 10 extra step points]** Revisit recursive bubble sort:
+  1. Implement in VisUAL.  
+  2. Compile with [Compiler Explorer](https://godbolt.org/):    
+     1. For ARM Cortex M0.  
+     2. For ARM Cortex M4.  
+  3. Compare the 3 different implementations and analyse the differences.  
 
 
 #### 3. Present
