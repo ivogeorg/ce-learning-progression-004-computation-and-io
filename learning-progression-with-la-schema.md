@@ -56,14 +56,13 @@ Table of Contents
           * [F\-4 MISC 16 bit instruction set](#f-4-misc-16-bit-instruction-set)
           * [In plain words](#in-plain-words)
           * [Symbols](#symbols)
-        * [micro:bit hex files](#microbit-hex-files)
       * [2\. Apply](#2-apply-3)
       * [3\. Present](#3-present-3)
     * [Step 5: ARM assembly](#step-5-arm-assembly)
       * [1\. Study](#1-study-4)
         * [Arm Cortex\-M0 ISA](#arm-cortex-m0-isa)
         * [Arm Cortex\-M4 ISA](#arm-cortex-m4-isa)
-        * [micro:bit hex files](#microbit-hex-files-1)
+        * [micro:bit hex files](#microbit-hex-files)
         * [Hex file comparison](#hex-file-comparison)
       * [2\. Apply](#2-apply-4)
       * [3\. Present](#3-present-4)
@@ -1116,11 +1115,6 @@ The four instructions can be summarized as Load, Store, Add, and Branch if Overf
 
 I estimate that about 1400 transistors would be needed to build this for a 16 bit implementation, which gives a 128k (2<sup>16</sup> words) space for programs and data.  With so few transistors, a very conservative performance estimate would be on the order of 50 MIPS if the memory is onboard the chip.
 
-##### micro:bit hex files
-[[toc](#table-of-contents)]
-
-**TODO: Research & take apart a file and show contents (runtimes, program, etc.) _Where?_**  
-
 #### 2. Apply
 [[toc](#table-of-contents)]
 
@@ -1161,6 +1155,8 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 [[toc](#table-of-contents)]  
 
 ##### Arm Cortex-M0 ISA
+
+[Cortex M family](https://www.anandtech.com/show/8400/arms-cortex-m-even-smaller-and-lower-power-cpu-cores)  
 
 ##### Arm Cortex-M4 ISA
 
