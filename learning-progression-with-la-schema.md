@@ -1070,6 +1070,8 @@ The instruction set for the F-4 (fast 4), a proof-of-concept minimal instruction
 ###### F-4 MISC 16 bit instruction set
 [[toc](#table-of-contents)]
 
+**TODO:** Resolve the width of the instructions vs the width of data: _how can the instruction and the operand be the same width_? [Harvard vs Princepton (Von Neumann)](https://learn.adafruit.com/memories-of-an-arduino/arduino-memory-architecture)? _(Wrote to author, but no response.)_    
+
 Instruction | Opcode | Operand | Operation | Clocks
 --- | --- | --- | --- | ---
 ADDi imm | 00 01 | 16 bit value | imm+(A) --> A | 3
