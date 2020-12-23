@@ -1167,10 +1167,18 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 
 ##### Hex file comparison
 
+##### ARM emulator
+
+[VisUAL](https://salmanarif.bitbucket.io/visual/)  
+
 #### 2. Apply
 [[toc](#table-of-contents)]  
 
-[VisUAL](https://salmanarif.bitbucket.io/visual/)  
+1.`[<lernact-disc>]`The NZCV flags.   
+2.`[<lernact-prac>]`Implement a simple (monolithic) program from a previous LP step.  
+3.`[<lernact-prac>]`Implement the same program, now with a subroutine.  
+4.`[<lernact-prac>]`**[Optional challenge, max 10 extra step points]** Implement recursive bubble sort.    
+
 
 #### 3. Present
 [[toc](#table-of-contents)]  
