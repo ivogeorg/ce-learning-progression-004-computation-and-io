@@ -1160,6 +1160,8 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 
 ##### Arm Cortex-M0 ISA
 
+Version 1.* of the micro:bit contains a `[<cept>]`_system-on-a-chip (SoC)_ processor that is built around an [_ARM Cortext-M0_](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m0) `[<cept>]`_core_. A SoC is a complex device which is `[<cept>]`[_silicon die_](https://en.wikipedia.org/wiki/Die_(integrated_circuit)) contains not only the CPU (aka core) but also a number of other components (e.g. busses, interrupt controller, debugging, etc.). 
+
 [Cortex M family](https://www.anandtech.com/show/8400/arms-cortex-m-even-smaller-and-lower-power-cpu-cores)  
 
 ##### Arm Cortex-M4 ISA
