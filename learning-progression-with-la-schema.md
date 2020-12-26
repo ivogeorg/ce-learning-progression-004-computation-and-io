@@ -1073,7 +1073,7 @@ The instruction set for the F-4 (fast 4), a proof-of-concept minimal instruction
 **TODO:** Resolve the width of the instructions vs the width of data: _how can the instruction and the operand be the same width_? 
 1. [Harvard vs Princepton (Von Neumann)](https://learn.adafruit.com/memories-of-an-arduino/arduino-memory-architecture)? _(Wrote to author, but no response.)_  
 2. The [VB simulator](http://www.dakeng.com/f4sim1.zip) might give a clue.  
-3. There are sample programs on the website. They too may give a clue.  
+3. There are [code examples](http://www.dakeng.com/misc.html) which too may give a clue.  
 
 Instruction | Opcode | Operand | Operation | Clocks
 --- | --- | --- | --- | ---
