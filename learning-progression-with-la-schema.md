@@ -1120,8 +1120,7 @@ The four instructions can be summarized as Load, Store, Add, and Branch if Overf
 
 I estimate that about 1400 transistors would be needed to build this for a 16 bit implementation, which gives a 128k (2<sup>16</sup> words) space for programs and data.  With so few transistors, a very conservative performance estimate would be on the order of 50 MIPS if the memory is onboard the chip.
 
-#### 2. Apply
-[[toc](#table-of-contents)]
+**TODO:** So, how do you compute with the MISC?  
 
 **TODO:** How to create intuition for the computation patterns?
 - write several programs and self-study  
@@ -1141,6 +1140,10 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 3. Understand computation: decompose familar operations into modules/subprograms that can be realized entirely in the MISC.  
 4. Turing completeness: critieria & equivalences.  
 5. _Hands-on thought experiment_: build RISC (say, ARM) from MISC.  
+
+
+#### 2. Apply
+[[toc](#table-of-contents)]
 
 1. `[<lernact-prac>]`Decoding instruction binary patterns. Reading program lines in binary.  
 2. `[<lernact-prac>]`Counting clock cycles for a program.    
