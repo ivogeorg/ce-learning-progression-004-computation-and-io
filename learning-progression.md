@@ -1,4 +1,4 @@
-# CPE 1040 - Fall 2020
+# CPE 1040
 
 This is Learning Progression 004 of the course CPE 1040: Introduction to Computer Engineering at MSU Denver.
 
@@ -7,7 +7,7 @@ This is Learning Progression 004 of the course CPE 1040: Introduction to Compute
 Table of Contents
 =================
 
-* [CPE 1040 \- Fall 2020](#cpe-1040---fall-2020)
+* [CPE 1040](#cpe-1040)
   * [Learning Progression 004: External LEDs](#learning-progression-004-external-leds)
   * [Lab kit](#lab-kit)
     * [Parts for progression](#parts-for-progression)
