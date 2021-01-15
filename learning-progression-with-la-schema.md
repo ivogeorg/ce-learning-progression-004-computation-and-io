@@ -1075,6 +1075,8 @@ The instruction set for the F-4 (fast 4), a proof-of-concept minimal instruction
 2. The [VB simulator](http://www.dakeng.com/f4sim1.zip) might give a clue.  
 3. There are [code examples](http://www.dakeng.com/misc.html) which too may give a clue.  
 
+**Note:** Third-party [implementation](https://github.com/koryaga/f4-misc) in C!  
+
 Instruction | Opcode | Operand | Operation | Clocks
 --- | --- | --- | --- | ---
 ADDi imm | 00 01 | 16 bit value | imm+(A) --> A | 3
