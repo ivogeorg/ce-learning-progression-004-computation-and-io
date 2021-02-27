@@ -1143,6 +1143,10 @@ I estimate that about 1400 transistors would be needed to build this for a 16 bi
 4. Turing completeness: critieria & equivalences.  
 5. _Hands-on thought experiment_: build RISC (say, ARM) from MISC.  
 
+**Latest idea (2021-02-26)** for bridging computational operations and ISA:
+1. First, just draw an operation out showing bit/byte-resolution memory movement of necessary variables, conditions/decisions performed, and accumulation of results (e.g. multiplication by a constant, a logical operation, etc.).  
+2. Then, show the same operation implemented in F-4 MISC, draw parallels with drawn out version, and motivate the differences based on hardware design considerations, efficiency, and minimality. (See last paragraph of F-4 MISC description on transistor count and MIPS.  
+
 
 #### 2. Apply
 [[toc](#table-of-contents)]
