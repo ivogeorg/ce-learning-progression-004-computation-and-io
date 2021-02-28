@@ -1058,6 +1058,10 @@ Program state. List with examples.
 ##### Clock cycles
 [[toc](#table-of-contents)]
 
+Synchronous circuits are circuits in which a clock governs when a circuit will change to its next state. This coordination is necessary in complex circuits like CPUs, because some operations may take longer to complete than others. This can create a bug known as a [race condition](https://en.wikipedia.org/wiki/Race_condition), in which erroneous output is produced because the timing of the circuit's change to the next state was not consistent throughout the circuit.
+
+A clock is simply an electronic oscillator that outputs a signal at a consistent rate. In binary, its output would be `1010101010...` continuing in that manner as long as it is powered. This output is sent to parts of the circuit that need to be coordinated, which makes issues like race conditions easier to prevent. 
+
 Synchronous circuits. Motivate the clock!   
 
 ##### Minimal instruction set CPU
