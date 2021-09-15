@@ -1719,7 +1719,7 @@ Notice the following:
 There are a handful of factors that may affect the choice of pins for the two extra (external) LED rows:
 1. We need 10 pins that are not used for anything else. This means that we are going to run them with the single-pin write and read functions of the `pins` namespace.  
 2. We need the 5x5 LED matrix anaffected so that the original screensaver sub-programs display correctly. This means we cannot use the pins that are involved in running the LED matrix.  
-3. We have limited breadboard real estate below the micro:bit edge connector. This means we we want to pick maximally adjacent pins to drive adjacent LEDs.  
+3. We have limited breadboard real estate below the micro:bit edge connector. This means that we want to pick maximally adjacent pins to drive adjacent LEDs.  
 4. The two pins used for the serial protocol I2C, namely `P19` and `P20`, would require extra `[<cept>]`_pull-down_ resistors to work, so they are not a good choice.  
 5. Putting together the count of available pins, we might need to sequester one or both of the pins connected to the buttons. _Note that, if you are doing the optional challenge at the end, you will need to leave one button pin unused and make that button a mode toggle._  
 
