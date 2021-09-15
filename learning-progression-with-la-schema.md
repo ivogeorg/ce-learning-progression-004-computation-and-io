@@ -69,7 +69,7 @@ Table of Contents
     * [Step 6: Electromagnetism](#step-6-electromagnetism)
       * [1\. Study](#1-study-5)
         * [Fundamental interaction](#fundamental-interaction)
-        * [Electrostatics &amp; magenetostatics](#electrostatics--magenetostatics)
+        * [Electrostatics &amp; magnetostatics](#electrostatics--magnetostatics)
         * [Theories of electromagnetism](#theories-of-electromagnetism)
         * [Charge, voltage, and current](#charge-voltage-and-current)
         * [Resistance](#resistance)
@@ -1217,7 +1217,7 @@ Version 1.* of the micro:bit contains a `[<cept>]`_system-on-a-chip (SoC)_ proce
 
 `[<lernact-rd>]`_Electromagnetism_ is one of the four [fundamental interactions (or `[<cept>]`_forces_)](https://en.wikipedia.org/wiki/Fundamental_interaction) in Nature humanity is currently aware of. We have developed theories to explain it but they are still in development. Even a short survey of our understanding of electromagnetism is beyond the scope of this learning progression.
 
-##### Electrostatics & magenetostatics
+##### Electrostatics & magnetostatics
 [[toc](#table-of-contents)]  
 
 Humanity encountered electromagnetism thousands of years ago, largely in the form of `[<cept>]`_electrostatic_ and `[<cept>]`_electromagnetic_ phenomena in the world around. If you have ever combed your hair and it stood up, or small bits of paper were attracted to the comb afterwards, or walked with woolen socks on the carpet and, when you tried to turn the light on, a small spark jumped from your finger to the switch, you have also encountered one of these phenomena.
