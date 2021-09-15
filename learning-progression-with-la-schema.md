@@ -1688,7 +1688,7 @@ let led_rows : AnalogPin[] = [
 ```
 Notice the following:
 1. The enumerated types `AnalogPin` and `DigitalPin` are mutually exclusive. That is, you can't use the same pin as both digital and analog in the same program.  
-2. You can organize the pins for the external LEDs in two different way, which equivalent except when it comes to index ordering in the 2D array selectors:
+2. You can organize the pins for the external LEDs in two different ways, which are equivalent except when it comes to index ordering in the 2D array selectors:
    1. By rows:
       ```javascript
       // Example 12.1.2
